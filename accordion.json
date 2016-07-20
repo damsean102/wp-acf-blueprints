@@ -1,0 +1,85 @@
+[
+    {
+        "key": "group_578f530df3119",
+        "title": "Accordion",
+        "fields": [
+            {
+                "key": "field_578f53264ae0c",
+                "label": "Accordion",
+                "name": "accordion",
+                "type": "repeater",
+                "instructions": "Please add in your content here",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": "",
+                "max": "",
+                "layout": "block",
+                "button_label": "Add item",
+                "sub_fields": [
+                    {
+                        "key": "field_578f534f4ae0d",
+                        "label": "Title",
+                        "name": "accordion_title",
+                        "type": "text",
+                        "instructions": "Please add in a title",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_578f53624ae0e",
+                        "label": "Content",
+                        "name": "accordion_content",
+                        "type": "wysiwyg",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "tabs": "all",
+                        "toolbar": "full",
+                        "media_upload": 1
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "tpl-ppc-landing.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    }
+]
